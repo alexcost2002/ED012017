@@ -1,0 +1,12 @@
+Comando GIT
+Git commit -m "Messagem"
+Git push -> Empurra para o Repositorio
+Git Pull -> Traz do Repositorio
+
+Exercicio até a proxima AULA
+1. Buscar no google um template gitignore
+2. Criar um arquivo .gitinore se não existir
+3. Criar um programa "Hello World"
+4. Compilar, Testar
+5. Adicionar ao index (stage)
+6. Commitar, submeter ao github e verificar no site
