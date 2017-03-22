@@ -1,0 +1,8 @@
+variáveis
+ inteiro: i, Vetor(10)
+ 
+início
+  para i de 0 até 10 repetir
+   Ler Vetor(i) 
+    enquanto Vetor(i) < 0
+      fim para  
