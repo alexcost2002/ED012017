@@ -13,6 +13,6 @@ void main (){
         printf("O valor do vetor e: %d\n", vetor[i]);
     }
 
-    return (0);
+    return 0;
 
 }
