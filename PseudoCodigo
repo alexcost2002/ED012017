@@ -1,8 +1,35 @@
-variáveis
- inteiro: i, Vetor(10)
- 
-início
-  para i de 0 até 10 repetir
-   Ler Vetor(i) 
-    enquanto Vetor(i) < 0
-      fim para  
+Algoritmo Busca_Vetor
+
+Inteiro: i, num, vetor[], tam;
+
+Para (i==0 ate tam-1) faca
+	Se(vetor[i]==num) entao
+		Retorne 1
+	Senao
+		Retorne -1
+	Fim-Se
+	i++
+Fim-Para
+Fim
+
+
+Inicio
+Inteiro: vetor[], tam, i , e, n	
+
+Escreva("Digite o tamanho de um vetor: ")
+Leia(tam)
+Para(i==0 ate tam-1) faca
+	Escreva("Digite o valor para o elemento: ")
+	Leia(e)
+	vetor[i] <- e
+	i++
+Fim-Para
+Escreva("Digite o elemento: ")
+Leia(n)
+Busca_Vetor(n, vetor, tam)
+Se(Busca_Vetor>0) entao
+	Escreva("Vetor localizado!")
+Senao
+	Escreva("Vetor nao localizado")
+Fim-Se
+Fim-Algoritmo
