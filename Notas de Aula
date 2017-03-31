@@ -43,3 +43,55 @@ https://www.ime.usp.br/~pf/algoritmos/index.html#C-language
 http://www.inf.pucrs.br/~pinho/PRGSWB/
 
 http://mtm.ufsc.br/~azeredo/cursoC/aulas/c410.html#c411.html
+
+Estudo sobre pilhas
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 50
+
+typedef struct {
+  int n;
+  float vet[MAX];
+} Pilha;
+
+typedef struct {
+  float info;
+  struct N0* anterior;
+} No;
+
+typedef struct {
+  No* topo;
+} Pilha;
+
+
+Pilha* criar(void){
+ Pilha *p;
+ p = (Pilha*) malloc(sizeof(Pilha));
+ p->n = 0;
+ 
+ return p;
+ }
+ 
+void inserir(Pilha *p, float v){
+   
+   if(p->n==MAX){
+     printf("Estouro de pilha.\n");
+     exit (1);
+   }
+   p->vet[p->n] = v;
+   p->n++;
+ }
+ 
+void imprimir(Pilha *p){
+   int i;
+   for(i=p->n-1; i>=0; i--)
+      printf("%f\n", p->vet[i]);
+ }
+ 
+int main(){
+   Pilha* p=criar();
+   inserir(p, 20.0);
+   imprimir(p);
+ }
+
+
