@@ -3,7 +3,7 @@ Exercicio de comprar ovos e pegar roupa.
 2. Pegar o dinheiro na carteira
 3. Pegar a chave do carro
 4. Ir ao mercado mais proximo
-5. Ir na seÁ„o onde est„o os ovos
+5. Ir na se√ß√£o onde est√£o os ovos
 6. Escolher uma duzia de ovos brancos
 7. Verificar a data de vencimento na embalagem
 8. Escolher a data mais posterior
@@ -15,4 +15,4 @@ Exercicio de comprar ovos e pegar roupa.
 14. colocar a chave do carro na estante
 15. Guardar os ovos na geladeira
 16. Guardar as roupas no guarda roupa
-17. sentar no sof·
+17. sentar no sof√°
