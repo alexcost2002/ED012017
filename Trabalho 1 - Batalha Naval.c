@@ -20,7 +20,7 @@ int main ()
     puts("     |  *                                                         *  |");
     puts("     |  *              Universidade de Brasilia - UnB             *  |");
     puts("     |  *              Disciplina: Estrutura de Dados             *  |");
-    puts("     |  *              Profº: Gustavo van Erv                     *  |");
+    puts("     |  *              ProfÂº: Gustavo van Erv                     *  |");
     puts("     |  *              Aluno: Alexandre Gama Costa                *  |");
     puts("     |  *              Matricula: 140079513                       *  |");
     puts("     |  *                                                         *  |");
@@ -36,7 +36,7 @@ int main ()
 
 //  --------------------------- IMRRIME MATRIZ DO JOGADOR --------------------------------------------------------------
     printf ("TABULEIRO DO JOGADOR: \n\n");
-    // COLOCA TODAS AS POSIÇÕES COM O SIMBOLO '#'
+    // COLOCA TODAS AS POSIÃ‡Ã•ES COM O SIMBOLO '#'
      for (i=0;i<5;i++)
      {
          for (j=0;j<5;j++)
@@ -122,7 +122,7 @@ int main ()
  //        }
  //        printf ("\n");
  //    }
-// ---------------------- DEFINIÇÃO DO TABULEIRO  --------------------------
+// ---------------------- DEFINIÃ‡ÃƒO DO TABULEIRO  --------------------------
 
                 printf ("\n TABULEIRO JOGADOR\t         TABULEIRO ADVERSARIO\n");
                 printf("\n");
@@ -159,7 +159,7 @@ int main ()
          printf ("Numero da Coluna: ");
          scanf ("%d", &col);
 
-         // VERIFICA SE JÁ REALIZOU O TIRO
+         // VERIFICA SE JÃ REALIZOU O TIRO
          while (posc[linha-1][col-1] == '1' || posc[linha-1][col-1] == '0')
          {
                printf ("\nVoce ja atirou neste local\n");
@@ -209,7 +209,7 @@ int main ()
              printf ("Voce ja acertou %d de 10 navios", cont);
              printf ("\nNumero de Tiros Jogador: %d\n",numtiro);
 
-               //VERIFICA ONDE VOCÊ ATIROU
+               //VERIFICA ONDE VOCÃŠ ATIROU
 
                 printf ("\nSeu tiro: \n");
                 printf ("Cordenadas do seu tiro.\nLinha: %d Coluna: %d\n",linha,col);
