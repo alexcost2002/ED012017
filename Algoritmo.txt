@@ -1,0 +1,18 @@
+Exercicio de comprar ovos e pegar roupa.
+1. Chegar em Casa
+2. Pegar o dinheiro na carteira
+3. Pegar a chave do carro
+4. Ir ao mercado mais proximo
+5. Ir na seção onde estão os ovos
+6. Escolher uma duzia de ovos brancos
+7. Verificar a data de vencimento na embalagem
+8. Escolher a data mais posterior
+9. Levar ao caixa para pagamento
+10. Guardar os ovos no carro
+11. Passar na lavanderia para pegar as roupas
+12. colocar no carro
+13. ir para casa 
+14. colocar a chave do carro na estante
+15. Guardar os ovos na geladeira
+16. Guardar as roupas no guarda roupa
+17. sentar no sofá
