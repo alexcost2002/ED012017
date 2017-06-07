@@ -98,4 +98,68 @@ int main(){
 Prova dia 10/05 - até lista, agenda telefonica.
 
 
+-------------------
+Java Codigo - Aula 07/06/2017
+
+
+Main.java
+public class Main {
+  
+  public static void main (String args[]){
+    
+    CarroAutomatico meuCarro = new CarroAutomatico ();
+    
+    meuCarro.setMarca("fiat");
+    
+    System.Out.println (meuCarro.marca);
+  }
+}
+
+Carro.java
+public abstract class Carro {
+  
+ String cor;
+ String marca;
+ String modelo;
+ int ano;
+ int qtdePortas;
+ 
+ public void setMarca (String marca){
+   this.marca = marca.touppercase();
+   
+}
+  
+  
+ public String getMarca (){
+   return this.marca;
+ }
+ 
+ public Carro (Sring marca){
+   setMarca = (marca);
+   
+ }
+ public Carro (){
+  
+}
+ 
+
+public boolean darPartida(){
+  
+  return false;
+}
+
+}
+
+CarroAutomatico.java
+public CarroAutomatico (String marca){
+  
+  super.setMarca(marca);
+  super.cor = cor;
+}
+
+
+
+
+
+
 
